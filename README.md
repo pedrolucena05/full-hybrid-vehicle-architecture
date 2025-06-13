@@ -16,7 +16,7 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
   - **Hybrid mode**, if speed is above 45 km/h.
 - Each **processing cycle** should be approximately **100ms**.
 
-## Maipulate variables
+## Manipulate variables
 
 - Is needed change the values before execute the project if you want to change it faster to test other scenarios;
 
