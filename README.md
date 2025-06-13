@@ -8,7 +8,7 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
 - When the vehicle speed **surpasses 45 km/h**, the system begins to **split power** between the **electric** and **combustion** engines.
 - Both engines work **together whenever possible**.
 
-## System Requirements
+## Some System Requirements
 
 - If **battery charge drops below 10%**, the system transitions to **combustion-only mode**.
 - If running in combustion-only mode and the **battery charge reaches 100%**, the system transitions back to:
