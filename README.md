@@ -22,7 +22,7 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
 
 ## How to Run the Project
 
-1. Open a terminal in the project's **main folder** (where the `Makefile` is located) and run:
+1. Open a terminal in the project's **main folder** (where the `Makefile` is located) and type:
    ```bash
    make
 2. Navigate to the bin folder and open three terminals. In each one, start the following executables:
