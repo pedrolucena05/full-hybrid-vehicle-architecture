@@ -16,6 +16,10 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
   - **Hybrid mode**, if speed is above 45 km/h.
 - Each **processing cycle** should be approximately **100ms**.
 
+## Maipulate variables
+
+- Is needed change the values before execute the project if you want to change it faster to test other scenarios;
+
 ## How to Run the Project
 
 1. Open a terminal in the project's **main folder** (where the `Makefile` is located) and run:
