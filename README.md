@@ -1,6 +1,6 @@
-# Full Hybrid Architecture
+# Full Hybrid Architecture (Stellantis especialization at UFPE (Final Project))
 
-This is a virtual simulation of a **full hybrid vehicle**, developed using the **C POSIX library** on Linux. It incorporates key system-level programming concepts such as **queues**, **processes**, and **threads**.
+This is a virtual simulation of a **full hybrid vehicle**, developed using the **C POSIX library** on Linux. It incorporates embedded system-level programming concepts such as **queues**, **processes**, and **threads**.
 
 ## Behavior
 
@@ -18,11 +18,12 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
 
 ## Manipulate variables
 
-- Is needed change the values before execute the project if you want to change it faster to test other scenarios;
+- Its needed change the values before execute the project if you want to change it faster to test other scenarios;
 
-## How to Run the Project
+## How to Run the Project (with makefile)
+- Its needed that you have installed gcov 2.3 and gcc 14, (it's better to use dockerfile if you don't have these installed)
 
-1. Open a terminal in the project's **main folder** (where the `Makefile` is located) and type:
+1. Open a terminal in the project's **main folder** (where the `makefile` is located) and type:
    ```bash
    make
 2. Navigate to the bin folder and open three terminals. In each one, start the following executables:
@@ -47,3 +48,20 @@ This is a virtual simulation of a **full hybrid vehicle**, developed using the *
 
     make coverage
     Generates code coverage reports using lcov and gcov.
+
+## How to Run the Project (with dockerfile)
+
+1. First install docker, then open a terminal in the project's **main folder** (where the `dockerfile` is located) and type:
+   ```bash
+   sudo docker build -t vmu_controller . // create a docker imagem with all requirements
+
+2. After succed the first step execute the command below
+   ```bash
+   sudo docker run --rm -v "$(pwd)":/app -w /app vmu_controller // generate binary folder with executables and coverage test folder
+
+3. Folow steps 2, 3 and 4 from makefile run
+
+## System running video
+https://drive.google.com/file/d/1fepKYzD_nttRtr1aOOZvuOsO1eUPuR9o/view?usp=sharing
+
+
