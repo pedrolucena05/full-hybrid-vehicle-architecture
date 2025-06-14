@@ -1,6 +1,6 @@
 # Full Hybrid Architecture (Stellantis especialization at UFPE (Final Project))
 
-This is a virtual simulation of a vehicle  with a **full hybrid system**, developed using the **C POSIX library** on Linux. It incorporates embedded system-level programming concepts such as **queues**, **shared memory**, **semaphores** **processes**, and **threads**.
+This is a virtual simulation of a vehicle  with a **full hybrid system**, developed using the **C POSIX library** on Linux. It incorporates embedded system-level programming concepts such as **queues**, **shared memory**, **semaphores**, **processes**, and **threads**.
 
 ## Behavior
 
